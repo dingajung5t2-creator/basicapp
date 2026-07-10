@@ -1,3 +1,7 @@
+@tailwind base; /* 기본 스타일 불러오기 */
+@tailwind components; /* 컴포넌트용 스타일 불러오기 */
+@tailwind utilities; /* 유틸리티용 스타일 불러오기 */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
