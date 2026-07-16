@@ -6,7 +6,7 @@ const MyListItem = ({ title, imgUrl, content }) => {
   // const desc = user.split(".")[0];
 
   return (
-    <div className="border border-solid border-gray-900 p-10 m-2">
+    <div className="border border-solid border-gray-900 p-2 m-2">
       <ul className="userBox">
         {/* 이미지 너비를 30%로 조정하고, 내부 이미지도 부모 너비에 맞게 w-full 추가 */}
         <li className="img1">
@@ -15,7 +15,7 @@ const MyListItem = ({ title, imgUrl, content }) => {
         {/* 설명 너비를 70%로 조정 */}
         <li className="desc1">{`${content}`}</li>
       </ul>
-      <footer className="footer max-h-4">
+      <footer className="footer">
         <h2>
           <span
             onClick={() => {
