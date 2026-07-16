@@ -121,7 +121,7 @@ function Lotto645() {
                                 // 글자 색상 분기: 
                                 // 8번째 보너스 번호(index === 7, 배경이 골드라 흰 글씨는 안보임)이거나 
                                 // '+' 기호(배경이 투명함)인 경우 검은색(black)으로 지정하고, 일반 공은 흰색(white) 지정
-                                color: (index === 7 || isPlusSign) ? "black" : "white",
+                                color: (isPlusSign) ? "black" : "white",
                                 
                                 margin: "5px",
                                 fontWeight: "bold",

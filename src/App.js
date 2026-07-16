@@ -1,7 +1,10 @@
 import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
+// import Hello from './01/Hello';
+import MyClock from './02/MyClock';
+// import MyDiv1 from './03/MyDiv1';
 // import MyList from './04/MyList';
-import Lotto645 from './05/lotto';
+// import Lotto645 from './05/lotto';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
         <p><RiHomeHeartFill /></p>
       </header>
       <main className='grow w-full flex justify-center items-center'>
-        <Lotto645 />
+        <MyClock />
+        {/* <MyDiv1 /> */}
+        {/* <MyList /> */}
+        {/* <Lotto645 /> */}
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         {"\u00A9"} honam
