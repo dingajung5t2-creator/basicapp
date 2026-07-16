@@ -1,7 +1,7 @@
 import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
-import MyDivAUser1 from './04/MyListItem';
-import MyList from './04/MyList';
+// import MyList from './04/MyList';
+import Lotto645 from './05/lotto';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p><RiHomeHeartFill /></p>
       </header>
       <main className='grow w-full flex justify-center items-center'>
-        <MyList />
+        <Lotto645 />
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         {"\u00A9"} honam

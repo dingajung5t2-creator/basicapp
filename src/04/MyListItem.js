@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./MyListItem.css";
 
 const MyListItem = ({ title, imgUrl, content }) => {
-  const [cnt, setCnt] = useState(0);
+  const [cnt, setCnt] = useState(0); // 배열 구조 분해 할당, cnt 현재값, setCnt 값 변경 함수
   // const desc = user.split(".")[0];
 
   return (
